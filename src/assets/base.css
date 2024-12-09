@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "Montserrat", serif;
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+}
+
+body{
+    font-family: "Montserrat";
+    color:#EEEEEE;
+    background-color: #222831;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    user-select: none;
+}
+
+.container{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;    /* Centraliza verticalmente */
+    height: 100vh;          /* Altura da tela inteira */
+    flex-direction: column;
+}
+
+.item {
+    transition: font-size 0.5s, color 0.5s; /* Defina a transição para ambos */
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.item:hover{
+    font-size: 1.1rem;
+    color:#00ADB5;
+}
+
+.item h3{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #393E46;
+    font-style: italic;
+}
+
+.item h3:hover{
+    cursor: pointer;
+}
+
+.principal{
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid #00ADB5;
+    margin-bottom: 15px;
+}
+
+.principal p{
+    width: 100%;
+    color:white;
+    font-size: 15px;
+}
+
+.principal h1{
+    margin: 0;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 3.5rem;
+    padding: 0;
+    margin: 15px;
+}
+
+h1:hover{
+    cursor:default;
+}
+
+h3{
+    padding: 0;
+    margin: 0;
+}
